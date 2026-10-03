@@ -1,7 +1,11 @@
 # PTTS Ping 1.1.1
 
-PTTS Ping is a prebuilt native Qt6 desktop application for monitoring multiple
-hosts on Linux. It is **Proprietary Freeware**.
+PTTS Ping is a free graphical multi-host ping monitor for Linux. It continuously
+monitors multiple IP addresses and hostnames in one window, showing reachability,
+latency, packet loss, failures, outage duration, and flapping hosts. It also
+supports IPv4 ranges for ping-sweep-style monitoring and reverse DNS lookups.
+
+It is a prebuilt native Qt6 desktop application and **Proprietary Freeware**.
 
 ## Download
 
@@ -29,6 +33,14 @@ sudo apt install ./ptts-ping_amd64.deb
 No development tools or manual Qt installation are required.
 
 ![PTTS Ping monitoring overview](screenshots/ptts-ping-overview.png)
+
+If you're looking for a multi ping or multiping utility, ping viewer,
+continuous ping monitor, network reachability monitor, or a Linux alternative
+to tools such as PingInfoView, PTTS Ping provides that kind of multi-host
+monitoring workflow in a native Linux desktop application.
+
+PTTS Ping is an independent product and is not affiliated with NirSoft or
+PingInfoView.
 
 ## Monitoring
 
