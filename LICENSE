@@ -12,9 +12,9 @@ copyright or license notices, falsely claim authorship, or represent PTTS Ping a
 another party's work.
 
 PTTS Ping remains proprietary software. No open-source license is granted.
-Readable or inspectable Python source does not grant permission to modify the
-software, redistribute modified versions, or create or distribute derivative
-versions. All rights not expressly granted above are reserved.
+No permission is granted to modify the software, redistribute modified versions,
+or create or distribute derivative versions except as expressly stated above.
+All rights not expressly granted above are reserved.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY WARRANTY, EXPRESS OR IMPLIED,
 INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,

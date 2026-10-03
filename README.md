@@ -26,7 +26,7 @@ Or from a terminal:
 sudo apt install ./ptts-ping_amd64.deb
 ```
 
-No Python setup, development tools, or manual Qt installation are required.
+No development tools or manual Qt installation are required.
 
 ![PTTS Ping monitoring overview](screenshots/ptts-ping-overview.png)
 
@@ -104,9 +104,10 @@ line-numbered warning. Option-like targets beginning with `-` are rejected.
 
 ## Requirements
 
-The native amd64 package is package-tested on Ubuntu 24.04 LTS and Ubuntu 26.04. APT installs the
-ordinary Qt6 runtime libraries and `iputils-ping` automatically. No development
-tools or Python setup are needed. Other distributions require their own testing.
+The native amd64 package is package-tested on Ubuntu 24.04 LTS and Ubuntu 26.04.
+APT installs the required Qt6 runtime libraries and `iputils-ping` automatically.
+No development tools or manual Qt setup are required. Other distributions require
+their own testing.
 
 ## Install, upgrade, and uninstall
 
