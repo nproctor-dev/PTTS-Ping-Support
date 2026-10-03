@@ -11,7 +11,7 @@ hosts on Linux. It is **Proprietary Freeware**.
 
 [SHA256 checksum](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/latest/download/ptts-ping_amd64.deb.sha256)
 
-[Latest release notes](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/latest) | [PTTS Ping website](https://pttsllc.com/ptts-ping) | [Support](https://github.com/nproctor-dev/PTTS-Ping-Support/issues)
+[Latest release notes](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/latest) | [PTTS Ping website](https://pttsllc.com/software/ptts-ping/) | [Support](https://github.com/nproctor-dev/PTTS-Ping-Support/issues)
 
 ### Easy installation
 
@@ -163,4 +163,4 @@ All rights not expressly granted are reserved.
 On first launch, missing config files are copied from the development-era
 `~/.config/pingview/` directory. Existing PTTS Ping files win; legacy files remain.
 
-Project website: https://pttsllc.com/ptts-ping
+Project website: https://pttsllc.com/software/ptts-ping/
