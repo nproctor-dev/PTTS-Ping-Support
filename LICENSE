@@ -1,0 +1,22 @@
+PTTS Ping — Proprietary Freeware
+Copyright (c) 2026 Neil Proctor
+
+Permission is granted to use PTTS Ping without charge for personal, educational,
+and internal commercial or business purposes. Permission is also granted to
+redistribute the complete, official, unmodified PTTS Ping package free of charge,
+provided all included copyright and license notices are preserved.
+
+You may not sell PTTS Ping, charge a fee specifically for PTTS Ping, sublicense it,
+or distribute modified or derivative versions. You may not remove or alter its
+copyright or license notices, falsely claim authorship, or represent PTTS Ping as
+another party's work.
+
+PTTS Ping remains proprietary software. No open-source license is granted.
+Readable or inspectable Python source does not grant permission to modify the
+software, redistribute modified versions, or create or distribute derivative
+versions. All rights not expressly granted above are reserved.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY WARRANTY, EXPRESS OR IMPLIED,
+INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+OR NON-INFRINGEMENT. TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT
+HOLDER IS NOT LIABLE FOR ANY DAMAGES ARISING FROM USE OF THE SOFTWARE.
