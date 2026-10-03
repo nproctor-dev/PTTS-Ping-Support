@@ -1,4 +1,4 @@
-# PTTS Ping 1.1.0
+# PTTS Ping 1.1.1
 
 PTTS Ping is a prebuilt native Qt6 desktop application for monitoring multiple
 hosts on Linux. It is **Proprietary Freeware**.
