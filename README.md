@@ -1,46 +1,130 @@
-# PTTS Ping 1.1.1
+# PTTS Ping 1.2.0
 
-PTTS Ping is a free graphical multi-host ping monitor for Linux. It continuously
-monitors multiple IP addresses and hostnames in one window, showing reachability,
-latency, packet loss, failures, outage duration, and flapping hosts. It also
-supports IPv4 ranges for ping-sweep-style monitoring and reverse DNS lookups.
+**One ping monitor. Same experience everywhere.**
 
-It is a prebuilt native Qt6 desktop application and **Proprietary Freeware**.
+A focused multi-host ping monitor for Windows and supported Linux desktops.
+Paste your hosts and see reachability, latency, packet loss and outages in one
+window—with the same menus, controls and shareable host lists on both platforms.
+**Proprietary Freeware:** free for personal, educational and internal commercial use.
 
-## Download
+## Download PTTS Ping
 
-### Latest Linux release
+### Windows 11 x64
 
-**[Download PTTS Ping for Ubuntu / Debian (.deb)](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/latest/download/ptts-ping_amd64.deb)**
+**[Download Windows Installer](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows-x64-setup.exe)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows-x64-setup.exe.sha256)
 
-[SHA256 checksum](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/latest/download/ptts-ping_amd64.deb.sha256)
+### Ubuntu 24.04 / 26.04
 
-[Latest release notes](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/latest) | [PTTS Ping website](https://pttsllc.com/software/ptts-ping/) | [Support](https://github.com/nproctor-dev/PTTS-Ping-Support/issues)
+**[Download .deb](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping_amd64.deb)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping_amd64.deb.sha256)
 
-### Easy installation
+### Fedora 44
 
-1. Download `ptts-ping_amd64.deb`.
-2. Open the downloaded file with your Linux software installer.
-3. Click **Install**.
-4. Launch **PTTS Ping** from your application menu.
+**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.fc44.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.fc44.x86_64.rpm.sha256)
 
-Or from a terminal:
+### Fedora 43
+
+**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.fc43.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.fc43.x86_64.rpm.sha256)
+
+### Rocky Linux 10 / AlmaLinux 10
+
+**[Download EL10 RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.el10.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.el10.x86_64.rpm.sha256)
+
+### Rocky Linux 9 / AlmaLinux 9
+
+**[Download EL9 RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.el9.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.el9.x86_64.rpm.sha256)
+
+### openSUSE Leap 16.0
+
+**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.lp160.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.lp160.x86_64.rpm.sha256)
+
+**Other Linux / Debian:** [View all downloads](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.2.0). Debian and other
+unlisted distributions have not been validated. Use only a package for your system.
+
+[Release notes](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.2.0) · [Checksums](#checksums) · [Website](https://pttsllc.com/software/ptts-ping/) · [Support](https://github.com/nproctor-dev/PTTS-Ping-Support/issues)
+
+## Looks at home on your desktop
+
+PTTS Ping automatically inherits your operating system's Light/Dark appearance.
+Windows follows live Light/Dark changes without restarting. Native platform
+networking sits underneath the same desktop workflow.
+
+No account. No server. No database. No subscription. No monitoring agent.
+No cloud service is required for monitoring. Just run PTTS Ping.
+
+Save a UTF-8 host list on Windows and load it on Linux: same format, same workflow.
+**Help → Check for Updates** checks public releases only when you ask. Downloads
+open in your browser; nothing is silently downloaded or installed.
+
+## Install
+
+**Windows:** download the installer, run it, then launch **PTTS Ping** from Start.
+The installer includes the runtime and upgrades the previous installation in
+place. Unsigned installers may show a Windows trust prompt.
+
+**Ubuntu:** download the .deb, open it with your graphical software installer,
+click **Install**, then launch **PTTS Ping** from your applications menu.
+
+<details>
+<summary>Prefer the terminal?</summary>
 
 ```sh
 sudo apt install ./ptts-ping_amd64.deb
 ```
 
-No development tools or manual Qt installation are required.
+</details>
+
+**Fedora:** download the RPM matching your version, then run its command:
+
+```sh
+# Fedora 44
+sudo dnf install ./ptts-ping-1.2.0-1.fc44.x86_64.rpm
+# Fedora 43
+sudo dnf install ./ptts-ping-1.2.0-1.fc43.x86_64.rpm
+```
+
+**Rocky Linux / AlmaLinux:** use the matching major version. EL9 requires EPEL
+and CRB for its runtime dependencies; enable those before installing:
+
+```sh
+# Rocky Linux 9 / AlmaLinux 9 prerequisites
+sudo dnf install dnf-plugins-core epel-release
+sudo dnf config-manager --set-enabled crb
+sudo dnf install ./ptts-ping-1.2.0-1.el9.x86_64.rpm
+
+# Rocky Linux 10 / AlmaLinux 10 (stock runtime repositories)
+sudo dnf install ./ptts-ping-1.2.0-1.el10.x86_64.rpm
+```
+
+**openSUSE Leap 16.0:**
+
+```sh
+sudo zypper install ./ptts-ping-1.2.0-1.lp160.x86_64.rpm
+```
+
+RPM packages are currently unsigned. Verify the checksum before accepting an
+unsigned local package. Package managers install the required runtime libraries
+and CA certificates; no development tools are needed.
+
+## Checksums
+
+Each download above has a matching `.sha256` file. Download both into the same
+folder. On Linux, run `sha256sum -c <filename>.sha256`. On Windows, optionally use
+PowerShell `Get-FileHash .\ptts-ping-1.2.0-windows-x64-setup.exe -Algorithm SHA256`
+and compare it with the checksum file.
+
+GitHub's automatically generated **Source code** archives contain only this
+public support repository. They do not contain the proprietary PTTS Ping
+application source code and cannot be used to build the application.
+
+## Desktop controls
+
+File provides Load List (Ctrl+O), Save List (Ctrl+S), and Exit (Ctrl+Q). The
+existing buttons remain. Options provides Clear Counters and Reset to Defaults.
+Reset asks first, stops monitoring, clears current/remembered hosts, and restores
+5 sec / 5 min / 20%. It preserves window/column/splitter state and saved list files.
+Help provides manual Check for Updates and About PTTS Ping.
 
 ![PTTS Ping monitoring overview](screenshots/ptts-ping-overview.png)
-
-If you're looking for a multi ping or multiping utility, ping viewer,
-continuous ping monitor, network reachability monitor, or a Linux alternative
-to tools such as PingInfoView, PTTS Ping provides that kind of multi-host
-monitoring workflow in a native Linux desktop application.
-
-PTTS Ping is an independent product and is not affiliated with NirSoft or
-PingInfoView.
 
 ## Monitoring
 
@@ -114,65 +198,37 @@ Reversed or malformed numeric ranges are rejected. Ordinary hyphenated hostnames
 remain supported. Malformed input is rejected before monitoring starts, with a
 line-numbered warning. Option-like targets beginning with `-` are rejected.
 
-## Requirements
+## Validated systems and saved settings
 
-The native amd64 package is package-tested on Ubuntu 24.04 LTS and Ubuntu 26.04.
-APT installs the required Qt6 runtime libraries and `iputils-ping` automatically.
-No development tools or manual Qt setup are required. Other distributions require
-their own testing.
+Windows 11 x64 and Kubuntu 26.04 passed real-desktop install/upgrade acceptance.
+Package validation covers Ubuntu 24.04/26.04, Fedora 43/44, Rocky Linux and
+AlmaLinux 9/10, and openSUSE Leap 16.0. Debian and RHEL are not validated targets.
 
-## Install, upgrade, and uninstall
+Settings are separate from the installed package and survive upgrades/uninstall:
 
-Download `ptts-ping_amd64.deb`, then install or upgrade from its directory:
+- Windows: `%LOCALAPPDATA%\PTTS Ping`
+- Linux: `~/.config/ptts-ping`
 
-```sh
-sudo apt install ./ptts-ping_amd64.deb
-```
+Monitoring preferences live in `settings.ini`, remembered UTF-8 hosts in
+`last_hosts.txt`, and machine/display-specific window state in `ui.ini`.
+User-created host-list files stay wherever you saved them.
 
-Uninstall:
-
-```sh
-sudo apt remove ptts-ping
-```
-
-Monitoring preferences are stored in portable `settings.ini`; the UTF-8 host
-list remains in `last_hosts.txt`. Window/splitter/header and sort state belong
-to machine/display-local `ui.ini`. Per-user runtime files are separate from the
-package; upgrades do not overwrite them:
-
-```text
-~/.config/ptts-ping/settings.ini
-~/.config/ptts-ping/last_hosts.txt
-~/.config/ptts-ping/ui.ini
-```
-
-Optional user-state removal:
-
-```sh
-rm -rf ~/.config/ptts-ping
-```
-
-This deletes saved monitoring preferences, host input, and UI layout state. Removing the package alone
-leaves that user state intact. Storage failures do not prevent monitoring.
+Remove the Windows application through Installed Apps. On Ubuntu use your
+software installer or `sudo apt remove ptts-ping`; on Fedora/Rocky/Alma use
+`sudo dnf remove ptts-ping`; on Leap use `sudo zypper remove ptts-ping`.
+Uninstall leaves your user settings intact.
 
 ## Support
 
-For bugs, installation problems, questions, or feature requests:
-
-**[Open a GitHub issue](https://github.com/nproctor-dev/PTTS-Ping-Support/issues/new/choose)**
-
-Please include your PTTS Ping version, Linux distribution/version, what you expected,
-what happened instead, and steps to reproduce the problem.
+For bugs, installation problems, questions or requests, [open an issue](https://github.com/nproctor-dev/PTTS-Ping-Support/issues/new/choose).
+Include the PTTS Ping version, operating system/version, expected and actual
+behavior, and steps to reproduce. Do not post private host lists or credentials.
 
 ## License
 
-PTTS Ping is **Proprietary Freeware**, not open source. Free personal, educational,
-and internal commercial use is permitted. The complete official unmodified
-package may be redistributed free of charge under [LICENSE](LICENSE).
-Modified/derivative redistribution, sublicensing, and resale are not permitted.
-All rights not expressly granted are reserved.
+PTTS Ping is **Proprietary Freeware**. Free personal, educational and internal
+commercial use is permitted. The complete official unmodified package may be
+redistributed free of charge under [LICENSE](LICENSE). Modified/derivative
+redistribution, sublicensing and resale are not permitted. All other rights reserved.
 
-On first launch, missing config files are copied from the development-era
-`~/.config/pingview/` directory. Existing PTTS Ping files win; legacy files remain.
-
-Project website: https://pttsllc.com/software/ptts-ping/
+[PTTS LLC product website](https://pttsllc.com/software/ptts-ping/)
