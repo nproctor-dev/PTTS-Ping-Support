@@ -11,7 +11,11 @@ window—with the same menus, controls and shareable host lists on both platform
 
 ### Windows 11 x64
 
-**[Download Windows Installer](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows-x64-setup.exe)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows-x64-setup.exe.sha256)
+**[Download Windows 11 Installer](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows-x64-setup.exe)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows-x64-setup.exe.sha256)
+
+### Windows 10 1809+ x64
+
+**[Download Windows 10 Installer](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows10-x64-setup.exe)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows10-x64-setup.exe.sha256)
 
 ### Ubuntu 24.04 / 26.04
 
@@ -45,8 +49,8 @@ unlisted distributions have not been validated. Use only a package for your syst
 ## Looks at home on your desktop
 
 PTTS Ping automatically inherits your operating system's Light/Dark appearance.
-Windows follows live Light/Dark changes without restarting. Native platform
-networking sits underneath the same desktop workflow.
+Windows 10 and Windows 11 follow live Light/Dark changes without restarting.
+Native platform networking sits underneath the same desktop workflow.
 
 No account. No server. No database. No subscription. No monitoring agent.
 No cloud service is required for monitoring. Just run PTTS Ping.
@@ -57,9 +61,10 @@ open in your browser; nothing is silently downloaded or installed.
 
 ## Install
 
-**Windows:** download the installer, run it, then launch **PTTS Ping** from Start.
-The installer includes the runtime and upgrades the previous installation in
-place. Unsigned installers may show a Windows trust prompt.
+**Windows:** download the installer matching your Windows version, run it, then
+launch **PTTS Ping** from Start. The installer includes the runtime and upgrades
+the previous installation in place. Unsigned installers may show a Windows trust
+prompt.
 
 **Ubuntu:** download the .deb, open it with your graphical software installer,
 click **Install**, then launch **PTTS Ping** from your applications menu.
@@ -109,8 +114,8 @@ and CA certificates; no development tools are needed.
 
 Each download above has a matching `.sha256` file. Download both into the same
 folder. On Linux, run `sha256sum -c <filename>.sha256`. On Windows, optionally use
-PowerShell `Get-FileHash .\ptts-ping-1.2.0-windows-x64-setup.exe -Algorithm SHA256`
-and compare it with the checksum file.
+PowerShell `Get-FileHash .\<installer-name>.exe -Algorithm SHA256` and compare it
+with the matching checksum file.
 
 GitHub's automatically generated **Source code** archives contain only this
 public support repository. They do not contain the proprietary PTTS Ping
@@ -200,9 +205,11 @@ line-numbered warning. Option-like targets beginning with `-` are rejected.
 
 ## Validated systems and saved settings
 
-Windows 11 x64 and Kubuntu 26.04 passed real-desktop install/upgrade acceptance.
-Package validation covers Ubuntu 24.04/26.04, Fedora 43/44, Rocky Linux and
-AlmaLinux 9/10, and openSUSE Leap 16.0. Debian and RHEL are not validated targets.
+Windows 10 Pro 22H2 x64, Windows 11 x64 and Kubuntu 26.04 passed real-desktop
+install/upgrade acceptance. The Windows 10 compatibility installer supports
+Windows 10 1809+ x64; real-desktop qualification was performed on 22H2. Package
+validation covers Ubuntu 24.04/26.04, Fedora 43/44, Rocky Linux and AlmaLinux
+9/10, and openSUSE Leap 16.0. Debian and RHEL are not validated targets.
 
 Settings are separate from the installed package and survive upgrades/uninstall:
 
