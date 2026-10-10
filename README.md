@@ -7,42 +7,7 @@ Paste your hosts and see reachability, latency, packet loss and outages in one
 window—with the same menus, controls and shareable host lists on both platforms.
 **Proprietary Freeware:** free for personal, educational and internal commercial use.
 
-## Download PTTS Ping
-
-### Windows 10 1809+ / Windows 11 x64
-
-**[Download Windows x64 Installer](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-windows-x64-setup.exe)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-windows-x64-setup.exe.sha256)
-
-One installer supports both Windows 10 1809 or later and Windows 11.
-
-### Ubuntu 24.04 / 26.04
-
-**[Download .deb](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_amd64.deb)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_amd64.deb.sha256)
-
-### Fedora 44
-
-**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc44.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc44.x86_64.rpm.sha256)
-
-### Fedora 43
-
-**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc43.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc43.x86_64.rpm.sha256)
-
-### Rocky Linux 10 / AlmaLinux 10
-
-**[Download EL10 RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el10.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el10.x86_64.rpm.sha256)
-
-### Rocky Linux 9 / AlmaLinux 9
-
-**[Download EL9 RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el9.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el9.x86_64.rpm.sha256)
-
-### openSUSE Leap 16.0
-
-**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.lp160.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.lp160.x86_64.rpm.sha256)
-
-**Other Linux / Debian:** [View all downloads](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.3.0). Debian and other
-unlisted distributions have not been validated. Use only a package for your system.
-
-[Release notes](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.3.0) · [Checksums](#checksums) · [Website](https://pttsllc.com/software/ptts-ping/) · [Support](https://github.com/nproctor-dev/PTTS-Ping-Support/issues)
+## [Download & Install PTTS-Ping](INSTALL.md)
 
 ## Looks at home on your desktop
 
