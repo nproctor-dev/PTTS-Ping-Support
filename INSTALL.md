@@ -1,13 +1,33 @@
-# Install PTTS Ping 1.3.0
+# Download & Install PTTS Ping 1.3.0
 
-For supported Linux distributions, the **recommended** installation method is the signed PTTS Linux repository. This lets your normal package manager install PTTS Ping and discover future releases.
+PTTS Ping is available for **Microsoft Windows** and supported **Linux distributions**. Choose your operating system below for the recommended installation method.
 
-GitHub adds a **Copy** button to each command block. Open the section for your operating system, copy the commands, paste them into a terminal, and press **Enter**.
+- **Windows:** download and run the PTTS Ping installer from GitHub.
+- **Linux:** installation from the signed PTTS Linux repository is recommended on supported distributions. Direct `.deb` and `.rpm` downloads remain available as an alternative.
+
+For Linux command blocks, GitHub provides a **Copy** button. Open the section for your distribution, copy the commands, paste them into a terminal, and press **Enter**.
+
+<details>
+<summary><strong>Microsoft Windows 10 1809+ / Windows 11 x64</strong></summary>
+
+**Recommended — Windows installer**
+
+[**Download PTTS Ping 1.3.0 for Windows x64**](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-windows-x64-setup.exe) · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-windows-x64-setup.exe.sha256)
+
+One installer supports Windows 10 version 1809 or later and Windows 11 x64.
+
+1. Download the installer.
+2. Run the installer and complete setup.
+3. Launch **PTTS Ping** from the Start menu.
+
+The current Windows installer is unsigned, so Windows may display a trust or security prompt before installation.
+
+</details>
 
 <details>
 <summary><strong>Ubuntu 24.04 Noble</strong></summary>
 
-**Recommended — PTTS repository**
+**Recommended — PTTS Linux repository**
 
 ```sh
 sudo apt update
@@ -26,7 +46,7 @@ sudo apt install ptts-ping
 <details>
 <summary><strong>Ubuntu 26.04 Resolute</strong></summary>
 
-**Recommended — PTTS repository**
+**Recommended — PTTS Linux repository**
 
 ```sh
 sudo apt update
@@ -45,7 +65,7 @@ sudo apt install ptts-ping
 <details>
 <summary><strong>Fedora 43</strong></summary>
 
-**Recommended — PTTS repository**
+**Recommended — PTTS Linux repository**
 
 ```sh
 sudo rpm --import https://repo.pttsllc.com/keys/ptts-linux-repo.asc
@@ -71,7 +91,7 @@ sudo dnf install ptts-ping
 <details>
 <summary><strong>Fedora 44</strong></summary>
 
-**Recommended — PTTS repository**
+**Recommended — PTTS Linux repository**
 
 ```sh
 sudo rpm --import https://repo.pttsllc.com/keys/ptts-linux-repo.asc
@@ -97,7 +117,7 @@ sudo dnf install ptts-ping
 <details>
 <summary><strong>Rocky Linux 9 / AlmaLinux 9</strong></summary>
 
-**Recommended — PTTS repository.** EL9 also requires EPEL and CRB for PTTS Ping runtime dependencies.
+**Recommended — PTTS Linux repository.** EL9 also requires EPEL and CRB for PTTS Ping runtime dependencies.
 
 ```sh
 sudo dnf install -y dnf-plugins-core epel-release
@@ -125,7 +145,7 @@ sudo dnf install ptts-ping
 <details>
 <summary><strong>Rocky Linux 10 / AlmaLinux 10</strong></summary>
 
-**Recommended — PTTS repository**
+**Recommended — PTTS Linux repository**
 
 ```sh
 sudo rpm --import https://repo.pttsllc.com/keys/ptts-linux-repo.asc
@@ -151,7 +171,7 @@ sudo dnf install ptts-ping
 <details>
 <summary><strong>openSUSE Leap 16.0</strong></summary>
 
-**Recommended — PTTS repository**
+**Recommended — PTTS Linux repository**
 
 ```sh
 sudo rpm --import https://repo.pttsllc.com/keys/ptts-linux-repo.asc
@@ -167,13 +187,15 @@ sudo zypper install --from ptts ptts-ping
 <details>
 <summary><strong>Other Linux / Debian</strong></summary>
 
-Debian and other unlisted distributions have not been validated. Use only a package intended for your system.
+Debian and other unlisted Linux distributions have not been validated. Use only a package intended for your system.
 
-[View all PTTS Ping 1.3.0 downloads](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.3.0)
+[View all PTTS Ping 1.3.0 release downloads](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.3.0)
 
 </details>
 
-## Repository trust
+## Linux repository trust
+
+The following trust information applies to installation through the PTTS Linux repository.
 
 Repository metadata is signed by **PTTS LLC Linux Software Signing**.
 
@@ -182,3 +204,7 @@ C611 38A4 9D40 5036 D599 2E45 AEB9 E7DE 9F21 AE57
 ```
 
 PTTS Ping 1.3.0 RPM package payloads predate package-level RPM signing. Repository metadata is signed and verified, while the current repository configuration allows these legacy unsigned package payloads. Future RPM releases are intended to use package-level signatures as well.
+
+## Release resources
+
+[PTTS Ping 1.3.0 release](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.3.0) · [Product website](https://pttsllc.com/software/ptts-ping/) · [Support](https://github.com/nproctor-dev/PTTS-Ping-Support/issues)
