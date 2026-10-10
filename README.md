@@ -1,4 +1,4 @@
-# PTTS Ping 1.2.0
+# PTTS Ping 1.3.0
 
 **One ping monitor. Same experience everywhere.**
 
@@ -9,42 +9,40 @@ window—with the same menus, controls and shareable host lists on both platform
 
 ## Download PTTS Ping
 
-### Windows 11 x64
+### Windows 10 1809+ / Windows 11 x64
 
-**[Download Windows 11 Installer](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows-x64-setup.exe)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows-x64-setup.exe.sha256)
+**[Download Windows x64 Installer](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-windows-x64-setup.exe)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-windows-x64-setup.exe.sha256)
 
-### Windows 10 1809+ x64
-
-**[Download Windows 10 Installer](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows10-x64-setup.exe)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-windows10-x64-setup.exe.sha256)
+One installer supports both Windows 10 1809 or later and Windows 11.
 
 ### Ubuntu 24.04 / 26.04
 
-**[Download .deb](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping_amd64.deb)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping_amd64.deb.sha256)
+**[Download .deb](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_amd64.deb)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_amd64.deb.sha256)
 
 ### Fedora 44
 
-**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.fc44.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.fc44.x86_64.rpm.sha256)
+**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc44.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc44.x86_64.rpm.sha256)
 
 ### Fedora 43
 
-**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.fc43.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.fc43.x86_64.rpm.sha256)
+**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc43.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc43.x86_64.rpm.sha256)
 
 ### Rocky Linux 10 / AlmaLinux 10
 
-**[Download EL10 RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.el10.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.el10.x86_64.rpm.sha256)
+**[Download EL10 RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el10.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el10.x86_64.rpm.sha256)
 
 ### Rocky Linux 9 / AlmaLinux 9
 
-**[Download EL9 RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.el9.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.el9.x86_64.rpm.sha256)
+**[Download EL9 RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el9.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el9.x86_64.rpm.sha256)
 
 ### openSUSE Leap 16.0
 
-**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.lp160.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.2.0/ptts-ping-1.2.0-1.lp160.x86_64.rpm.sha256)
+**[Download RPM](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.lp160.x86_64.rpm)** · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.lp160.x86_64.rpm.sha256)
 
-**Other Linux / Debian:** [View all downloads](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.2.0). Debian and other
+**Other Linux / Debian:** [View all downloads](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.3.0). Debian and other
 unlisted distributions have not been validated. Use only a package for your system.
 
-[Release notes](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.2.0) · [Checksums](#checksums) · [Website](https://pttsllc.com/software/ptts-ping/) · [Support](https://github.com/nproctor-dev/PTTS-Ping-Support/issues)
+[Release notes](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.3.0) · [Checksums](#checksums) · [Website](https://pttsllc.com/software/ptts-ping/) · [Support](https://github.com/nproctor-dev/PTTS-Ping-Support/issues)
 
 ## Looks at home on your desktop
 
@@ -61,10 +59,10 @@ open in your browser; nothing is silently downloaded or installed.
 
 ## Install
 
-**Windows:** download the installer matching your Windows version, run it, then
-launch **PTTS Ping** from Start. The installer includes the runtime and upgrades
-the previous installation in place. Unsigned installers may show a Windows trust
-prompt.
+**Windows:** download the Windows x64 installer, run it, then launch **PTTS Ping**
+from Start. The same installer supports Windows 10 1809+ and Windows 11, includes
+the runtime, and upgrades the previous installation in place. Unsigned installers
+may show a Windows trust prompt.
 
 **Ubuntu:** download the .deb, open it with your graphical software installer,
 click **Install**, then launch **PTTS Ping** from your applications menu.
@@ -82,9 +80,9 @@ sudo apt install ./ptts-ping_amd64.deb
 
 ```sh
 # Fedora 44
-sudo dnf install ./ptts-ping-1.2.0-1.fc44.x86_64.rpm
+sudo dnf install ./ptts-ping-1.3.0-1.fc44.x86_64.rpm
 # Fedora 43
-sudo dnf install ./ptts-ping-1.2.0-1.fc43.x86_64.rpm
+sudo dnf install ./ptts-ping-1.3.0-1.fc43.x86_64.rpm
 ```
 
 **Rocky Linux / AlmaLinux:** use the matching major version. EL9 requires EPEL
@@ -94,16 +92,16 @@ and CRB for its runtime dependencies; enable those before installing:
 # Rocky Linux 9 / AlmaLinux 9 prerequisites
 sudo dnf install dnf-plugins-core epel-release
 sudo dnf config-manager --set-enabled crb
-sudo dnf install ./ptts-ping-1.2.0-1.el9.x86_64.rpm
+sudo dnf install ./ptts-ping-1.3.0-1.el9.x86_64.rpm
 
 # Rocky Linux 10 / AlmaLinux 10 (stock runtime repositories)
-sudo dnf install ./ptts-ping-1.2.0-1.el10.x86_64.rpm
+sudo dnf install ./ptts-ping-1.3.0-1.el10.x86_64.rpm
 ```
 
 **openSUSE Leap 16.0:**
 
 ```sh
-sudo zypper install ./ptts-ping-1.2.0-1.lp160.x86_64.rpm
+sudo zypper install ./ptts-ping-1.3.0-1.lp160.x86_64.rpm
 ```
 
 RPM packages are currently unsigned. Verify the checksum before accepting an
@@ -135,7 +133,11 @@ Help provides manual Check for Updates and About PTTS Ping.
 
 - Continuous monitoring of IP addresses and hostnames, with latency and
   success/failure/packet-loss counters. Interval changes take effect immediately;
-  unfinished batches prevent overlapping cycles. Large lists update progressively.
+  unfinished batches prevent overlapping cycles. Large lists use adaptive rolling
+  monitoring and update progressively.
+- **All / Responded** views make large target sets easier to work with. Responded
+  retains hosts that have replied at least once, including hosts that later go
+  DOWN, across monitoring restarts while the same host list is retained.
 - **Last Failure** records the latest applied failed result in local time.
 - **Failure Duration** shows the current continuous outage using monotonic time;
   recovery clears the duration but preserves Last Failure.
@@ -144,9 +146,9 @@ Help provides manual Check for Updates and About PTTS Ping.
 - Clear Counters resets counters and flap history while preserving Last Failure,
   current status, and active outage timing. Changing Flap Window restarts only
   flap history; changing the threshold reevaluates retained samples immediately.
-- Reverse DNS enriches unnamed IP entries without occupying ping workers.
-  Resolver calls have no application-controlled timeout and may delay process
-  exit after the window closes.
+- Reverse DNS enriches unnamed IP entries independently of ping workers. Windows
+  uses asynchronous PTR requests with a two-second application deadline; Linux
+  keeps its platform-native resolver path.
 - Numeric IP sorting, read-only results, user-resizable columns, horizontal
   scrolling, and a draggable vertical host-input/results splitter.
 - Save List / Load List use UTF-8; saves replace files atomically. The last host
@@ -171,8 +173,9 @@ automatically without requiring a new ping.
 
 ## Monitoring controls
 
-**Interval** controls how often a new ping cycle starts; unfinished cycles never
-overlap. **Flap Window** selects how far back results are retained (default
+**Interval** controls how often monitoring runs; **5 seconds is the recommended
+default for normal monitoring**. Shorter intervals increase monitoring frequency
+and CPU usage. **Flap Window** selects how far back results are retained (default
 5 minutes, range 1–60). **Failure threshold** sets the minimum failed-ping
 percentage needed for flapping (default 20%, range 1–100); the transition and
 mixed-result requirements still apply.
@@ -191,14 +194,17 @@ example.com
 server01<TAB>198.51.100.20
 server01,198.51.100.20
 server01 198.51.100.20
+192.168.1.0/24
 203.0.113.10-203.0.113.20
+# Full-line comments are ignored
 ```
 
 Replace `<TAB>` with an actual tab. A tab/comma row must have exactly two fields;
 its target must be nonempty. An empty name uses the target as its display name.
 Whitespace-separated rows accept a single target or `Name Target`.
 
-IPv4 ranges allow whitespace around `-` and at most **4096 addresses**.
+IPv4 CIDR ranges and explicit ranges allow at most **4096 addresses**. Full-line
+`#` comments are ignored. Explicit ranges allow whitespace around `-`.
 Reversed or malformed numeric ranges are rejected. Ordinary hyphenated hostnames
 remain supported. Malformed input is rejected before monitoring starts, with a
 line-numbered warning. Option-like targets beginning with `-` are rejected.
@@ -206,10 +212,12 @@ line-numbered warning. Option-like targets beginning with `-` are rejected.
 ## Validated systems and saved settings
 
 Windows 10 Pro 22H2 x64, Windows 11 x64 and Kubuntu 26.04 passed real-desktop
-install/upgrade acceptance. The Windows 10 compatibility installer supports
-Windows 10 1809+ x64; real-desktop qualification was performed on 22H2. Package
-validation covers Ubuntu 24.04/26.04, Fedora 43/44, Rocky Linux and AlmaLinux
-9/10, and openSUSE Leap 16.0. Debian and RHEL are not validated targets.
+install/upgrade acceptance. A single Windows x64 installer supports Windows 10
+1809+ and Windows 11; real-desktop Windows 10 qualification was performed on
+22H2. Package validation covers Ubuntu 24.04/26.04, Fedora 43/44, Rocky Linux and
+AlmaLinux 9/10, and openSUSE Leap 16.0. Those distro-matrix results are clean
+container validation, not additional desktop claims. Debian and RHEL are not
+validated targets.
 
 Settings are separate from the installed package and survive upgrades/uninstall:
 
