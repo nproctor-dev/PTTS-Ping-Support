@@ -22,68 +22,6 @@ Save a UTF-8 host list on Windows and load it on Linux: same format, same workfl
 **Help → Check for Updates** checks public releases only when you ask. Downloads
 open in your browser; nothing is silently downloaded or installed.
 
-## Install
-
-**Windows:** download the Windows x64 installer, run it, then launch **PTTS Ping**
-from Start. The same installer supports Windows 10 1809+ and Windows 11, includes
-the runtime, and upgrades the previous installation in place. Unsigned installers
-may show a Windows trust prompt.
-
-**Ubuntu:** download the .deb, open it with your graphical software installer,
-click **Install**, then launch **PTTS Ping** from your applications menu.
-
-<details>
-<summary>Prefer the terminal?</summary>
-
-```sh
-sudo apt install ./ptts-ping_amd64.deb
-```
-
-</details>
-
-**Fedora:** download the RPM matching your version, then run its command:
-
-```sh
-# Fedora 44
-sudo dnf install ./ptts-ping-1.3.0-1.fc44.x86_64.rpm
-# Fedora 43
-sudo dnf install ./ptts-ping-1.3.0-1.fc43.x86_64.rpm
-```
-
-**Rocky Linux / AlmaLinux:** use the matching major version. EL9 requires EPEL
-and CRB for its runtime dependencies; enable those before installing:
-
-```sh
-# Rocky Linux 9 / AlmaLinux 9 prerequisites
-sudo dnf install dnf-plugins-core epel-release
-sudo dnf config-manager --set-enabled crb
-sudo dnf install ./ptts-ping-1.3.0-1.el9.x86_64.rpm
-
-# Rocky Linux 10 / AlmaLinux 10 (stock runtime repositories)
-sudo dnf install ./ptts-ping-1.3.0-1.el10.x86_64.rpm
-```
-
-**openSUSE Leap 16.0:**
-
-```sh
-sudo zypper install ./ptts-ping-1.3.0-1.lp160.x86_64.rpm
-```
-
-RPM packages are currently unsigned. Verify the checksum before accepting an
-unsigned local package. Package managers install the required runtime libraries
-and CA certificates; no development tools are needed.
-
-## Checksums
-
-Each download above has a matching `.sha256` file. Download both into the same
-folder. On Linux, run `sha256sum -c <filename>.sha256`. On Windows, optionally use
-PowerShell `Get-FileHash .\<installer-name>.exe -Algorithm SHA256` and compare it
-with the matching checksum file.
-
-GitHub's automatically generated **Source code** archives contain only this
-public support repository. They do not contain the proprietary PTTS Ping
-application source code and cannot be used to build the application.
-
 ## Desktop controls
 
 File provides Load List (Ctrl+O), Save List (Ctrl+S), and Exit (Ctrl+Q). The
