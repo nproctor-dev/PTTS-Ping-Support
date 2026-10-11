@@ -3,7 +3,7 @@
 PTTS Ping is available for **Microsoft Windows** and supported **Linux distributions**. Choose your operating system below for the recommended installation method.
 
 - **Windows:** download and run the PTTS Ping installer from GitHub.
-- **Linux:** installation from the signed PTTS Linux repository is recommended on supported distributions. Direct `.deb` and `.rpm` downloads remain available as an alternative.
+- **Linux:** installation from the signed PTTS Linux repository is recommended on supported distributions. Direct `.deb` and `.rpm` downloads remain available as an alternative; their hashes are published in the signed aggregate `SHA256SUMS` manifest.
 
 For Linux command blocks, GitHub provides a **Copy** button. Open the section for your distribution, copy the commands, paste them into a terminal, and press **Enter**.
 
@@ -39,7 +39,7 @@ sudo apt update
 sudo apt install ptts-ping
 ```
 
-**Alternative:** [Download the `.deb` directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_amd64.deb) · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_amd64.deb.sha256)
+**Alternative:** [Download the `.deb` directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_1.3.0-2_amd64.deb) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -58,7 +58,7 @@ sudo apt update
 sudo apt install ptts-ping
 ```
 
-**Alternative:** [Download the `.deb` directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_amd64.deb) · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_amd64.deb.sha256)
+**Alternative:** [Download the `.deb` directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_1.3.0-2_amd64.deb) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -74,7 +74,7 @@ sudo tee /etc/yum.repos.d/ptts.repo >/dev/null <<'EOF'
 name=PTTS LLC
 baseurl=https://repo.pttsllc.com/rpm/fedora/43/x86_64
 enabled=1
-gpgcheck=0
+gpgcheck=1
 repo_gpgcheck=1
 gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
 metadata_expire=0
@@ -84,7 +84,7 @@ sudo dnf makecache --refresh
 sudo dnf install ptts-ping
 ```
 
-**Alternative:** [Download the Fedora 43 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc43.x86_64.rpm) · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc43.x86_64.rpm.sha256)
+**Alternative:** [Download the Fedora 43 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-2.fc43.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -100,7 +100,7 @@ sudo tee /etc/yum.repos.d/ptts.repo >/dev/null <<'EOF'
 name=PTTS LLC
 baseurl=https://repo.pttsllc.com/rpm/fedora/44/x86_64
 enabled=1
-gpgcheck=0
+gpgcheck=1
 repo_gpgcheck=1
 gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
 metadata_expire=0
@@ -110,7 +110,7 @@ sudo dnf makecache --refresh
 sudo dnf install ptts-ping
 ```
 
-**Alternative:** [Download the Fedora 44 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc44.x86_64.rpm) · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.fc44.x86_64.rpm.sha256)
+**Alternative:** [Download the Fedora 44 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-2.fc44.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -128,7 +128,7 @@ sudo tee /etc/yum.repos.d/ptts.repo >/dev/null <<'EOF'
 name=PTTS LLC
 baseurl=https://repo.pttsllc.com/rpm/el/9/x86_64
 enabled=1
-gpgcheck=0
+gpgcheck=1
 repo_gpgcheck=1
 gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
 metadata_expire=0
@@ -138,7 +138,7 @@ sudo dnf makecache --refresh
 sudo dnf install ptts-ping
 ```
 
-**Alternative:** [Download the EL9 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el9.x86_64.rpm) · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el9.x86_64.rpm.sha256)
+**Alternative:** [Download the EL9 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-2.el9.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -154,7 +154,7 @@ sudo tee /etc/yum.repos.d/ptts.repo >/dev/null <<'EOF'
 name=PTTS LLC
 baseurl=https://repo.pttsllc.com/rpm/el/10/x86_64
 enabled=1
-gpgcheck=0
+gpgcheck=1
 repo_gpgcheck=1
 gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
 metadata_expire=0
@@ -164,7 +164,7 @@ sudo dnf makecache --refresh
 sudo dnf install ptts-ping
 ```
 
-**Alternative:** [Download the EL10 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el10.x86_64.rpm) · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.el10.x86_64.rpm.sha256)
+**Alternative:** [Download the EL10 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-2.el10.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -175,12 +175,12 @@ sudo dnf install ptts-ping
 
 ```sh
 sudo rpm --import https://repo.pttsllc.com/keys/ptts-linux-repo.asc
-sudo zypper --non-interactive ar -f --gpgcheck-allow-unsigned-package https://repo.pttsllc.com/rpm/opensuse/leap/16.0/x86_64 ptts
+sudo zypper --non-interactive ar -f https://repo.pttsllc.com/rpm/opensuse/leap/16.0/x86_64 ptts
 sudo zypper refresh
 sudo zypper install --from ptts ptts-ping
 ```
 
-**Alternative:** [Download the Leap 16.0 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.lp160.x86_64.rpm) · [SHA256](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-1.lp160.x86_64.rpm.sha256)
+**Alternative:** [Download the Leap 16.0 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-2.lp160.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -203,7 +203,9 @@ Repository metadata is signed by **PTTS LLC Linux Software Signing**.
 C611 38A4 9D40 5036 D599 2E45 AEB9 E7DE 9F21 AE57
 ```
 
-PTTS Ping 1.3.0 RPM package payloads predate package-level RPM signing. Repository metadata is signed and verified, while the current repository configuration allows these legacy unsigned package payloads. Future RPM releases are intended to use package-level signatures as well.
+PTTS Ping 1.3.0 Linux package revision 2 is the current Linux publication. RPM packages are signed by **PTTS LLC Linux Software Signing**, and RPM repository metadata is independently signed and verified. The initial 1.3.0 package revision 1 RPMs predated package-level signing; immutable historical repository snapshots were not modified or re-signed.
+
+Direct Linux downloads use the signed aggregate [`SHA256SUMS`](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) manifest and its [detached signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc).
 
 ## Release resources
 
