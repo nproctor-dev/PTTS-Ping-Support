@@ -149,4 +149,10 @@ commercial use is permitted. The complete official unmodified package may be
 redistributed free of charge under [LICENSE](LICENSE). Modified/derivative
 redistribution, sublicensing and resale are not permitted. All other rights reserved.
 
+## Third-party product references
+
+PTTS Ping is independently developed by PTTS LLC. References to third-party
+network-monitoring products, including NirSoft PingInfoView, are for factual
+comparison only and do not imply affiliation, sponsorship, or endorsement.
+
 [PTTS LLC product website](https://pttsllc.com/software/ptts-ping/)
