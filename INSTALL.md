@@ -41,7 +41,7 @@ sudo apt update
 sudo apt install ptts-ping
 ```
 
-**Alternative:** [Download the `.deb` directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_1.3.0-3_amd64.deb) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3.asc)
+**Alternative:** [Download the `.deb` directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_1.3.0-3_amd64.deb) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -60,7 +60,7 @@ sudo apt update
 sudo apt install ptts-ping
 ```
 
-**Alternative:** [Download the `.deb` directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_1.3.0-3_amd64.deb) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3.asc)
+**Alternative:** [Download the `.deb` directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping_1.3.0-3_amd64.deb) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -86,7 +86,7 @@ sudo dnf makecache --refresh
 sudo dnf install ptts-ping
 ```
 
-**Alternative:** [Download the Fedora 43 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-3.fc43.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3.asc)
+**Alternative:** [Download the Fedora 43 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-3.fc43.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -112,7 +112,7 @@ sudo dnf makecache --refresh
 sudo dnf install ptts-ping
 ```
 
-**Alternative:** [Download the Fedora 44 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-3.fc44.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3.asc)
+**Alternative:** [Download the Fedora 44 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-3.fc44.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -140,7 +140,7 @@ sudo dnf makecache --refresh
 sudo dnf install ptts-ping
 ```
 
-**Alternative:** [Download the EL9 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-3.el9.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3.asc)
+**Alternative:** [Download the EL9 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-3.el9.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -166,7 +166,7 @@ sudo dnf makecache --refresh
 sudo dnf install ptts-ping
 ```
 
-**Alternative:** [Download the EL10 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-3.el10.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3.asc)
+**Alternative:** [Download the EL10 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-3.el10.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -182,7 +182,7 @@ sudo zypper refresh
 sudo zypper install --from ptts ptts-ping
 ```
 
-**Alternative:** [Download the Leap 16.0 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-3.lp160.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3.asc)
+**Alternative:** [Download the Leap 16.0 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/ptts-ping-1.3.0-3.lp160.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc)
 
 </details>
 
@@ -207,7 +207,7 @@ C611 38A4 9D40 5036 D599 2E45 AEB9 E7DE 9F21 AE57
 
 **Current Linux package revision: 3 (`1.3.0-3`).** This revision improves native unprivileged ICMP compatibility on distributions with restrictive `net.ipv4.ping_group_range` defaults. The signed PTTS APT/RPM repository is the recommended installation and upgrade method. Previous revision-2 package artifacts are superseded. RPM packages are signed by **PTTS LLC Linux Software Signing**, and RPM repository metadata is independently signed and verified. The initial 1.3.0 package revision 1 RPMs predated package-level signing; immutable historical repository snapshots were not modified or re-signed.
 
-Direct Linux revision-3 downloads use the signed aggregate [`SHA256SUMS-r3`](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3) manifest and its [detached signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS-r3.asc).
+Direct Linux revision-3 downloads use the signed aggregate [`SHA256SUMS`](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS) manifest and its [detached signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.3.0/SHA256SUMS.asc).
 
 ## Release resources
 
