@@ -7,7 +7,9 @@ Paste your hosts and see reachability, latency, packet loss and outages in one
 window—with the same menus, controls and shareable host lists on both platforms.
 **Proprietary Freeware:** free for personal, educational and internal commercial use.
 
-## [Download & Install PTTS-Ping](INSTALL.md)
+## [Download & Install PTTS-Ping 1.3.0](INSTALL.md)
+
+**Current Linux packages: `1.3.0-3`.** Use the signed [PTTS Linux repository](INSTALL.md) for installation and updates, or download the supported `.deb`/`.rpm` packages from the [single 1.3.0 release page](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.3.0). Linux Mint 22.3 Zena uses the Ubuntu 24.04 Noble repository and has passed the revision-3 APT upgrade and monitoring test.
 
 ## Looks at home on your desktop
 
@@ -114,8 +116,9 @@ line-numbered warning. Option-like targets beginning with `-` are rejected.
 
 ## Validated systems and saved settings
 
-Windows 10 Pro 22H2 x64, Windows 11 x64 and Kubuntu 26.04 passed real-desktop
-install/upgrade acceptance. A single Windows x64 installer supports Windows 10
+Windows 10 Pro 22H2 x64, Windows 11 x64, Kubuntu 26.04, Ubuntu 24.04.5
+Sway/Wayland and Linux Mint 22.3 Zena passed real-desktop install/upgrade
+acceptance for the tested scenarios. A single Windows x64 installer supports Windows 10
 1809+ and Windows 11; real-desktop Windows 10 qualification was performed on
 22H2. Package validation covers Ubuntu 24.04/26.04, Fedora 43/44, Rocky Linux and
 AlmaLinux 9/10, and openSUSE Leap 16.0. Those distro-matrix results are clean
