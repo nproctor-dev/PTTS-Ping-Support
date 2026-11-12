@@ -5,7 +5,7 @@ PTTS Ping is available for **Microsoft Windows** and supported **Linux distribut
 - **Windows:** download and run the PTTS Ping installer from GitHub.
 - **Linux:** installation from the signed PTTS Linux repository is recommended on supported distributions. Direct `.deb` and `.rpm` downloads remain available as an alternative; their hashes are published in the signed aggregate `SHA256SUMS` manifest.
 
-**Simple install:** expand your Linux distribution below, copy its one-time repository setup commands, and run them in a terminal. After setup, install or update with `sudo apt install ptts-ping` (Ubuntu/Mint), `sudo dnf install ptts-ping` (Fedora/Rocky/Alma), or `sudo zypper install ptts-ping` (openSUSE). Future updates arrive through your normal package manager. Existing users only need to refresh and upgrade; they do not need to repeat repository setup.
+**Simple install:** expand the section for your distribution, click GitHub's **Copy** control on the command block, paste into a terminal, and run. The commands configure the signed PTTS Linux repository and install PTTS Ping. After setup, updates arrive through your normal package manager; existing users do not need to repeat repository configuration.
 
 <details>
 <summary><strong>Windows x64</strong></summary>
@@ -32,13 +32,11 @@ Linux Mint 22.3 Zena is based on Ubuntu 24.04 Noble and uses the **same Noble AP
 **Recommended — PTTS Linux repository**
 
 ```sh
-sudo apt update
-sudo apt install -y curl gnupg ca-certificates
+sudo apt update && sudo apt install -y curl ca-certificates
 sudo install -d -m 0755 /etc/apt/keyrings
-curl -fsSL https://repo.pttsllc.com/keys/ptts-linux-repo.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/ptts-linux-repo.gpg >/dev/null
-echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/ptts-linux-repo.gpg] https://repo.pttsllc.com/apt noble main' | sudo tee /etc/apt/sources.list.d/ptts.list >/dev/null
-sudo apt update
-sudo apt install ptts-ping
+sudo curl -fsSL https://repo.pttsllc.com/keys/ptts-linux-repo.asc -o /etc/apt/keyrings/ptts-linux-repo.asc
+echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/ptts-linux-repo.asc] https://repo.pttsllc.com/apt noble main' | sudo tee /etc/apt/sources.list.d/ptts.list >/dev/null
+sudo apt update && sudo apt install -y ptts-ping
 ```
 
 **Alternative:** [Download the `.deb` directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/ptts-ping_1.4.0-2_amd64.deb) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc)
@@ -51,13 +49,11 @@ sudo apt install ptts-ping
 **Recommended — PTTS Linux repository**
 
 ```sh
-sudo apt update
-sudo apt install -y curl gnupg ca-certificates
+sudo apt update && sudo apt install -y curl ca-certificates
 sudo install -d -m 0755 /etc/apt/keyrings
-curl -fsSL https://repo.pttsllc.com/keys/ptts-linux-repo.asc | gpg --dearmor | sudo tee /etc/apt/keyrings/ptts-linux-repo.gpg >/dev/null
-echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/ptts-linux-repo.gpg] https://repo.pttsllc.com/apt resolute main' | sudo tee /etc/apt/sources.list.d/ptts.list >/dev/null
-sudo apt update
-sudo apt install ptts-ping
+sudo curl -fsSL https://repo.pttsllc.com/keys/ptts-linux-repo.asc -o /etc/apt/keyrings/ptts-linux-repo.asc
+echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/ptts-linux-repo.asc] https://repo.pttsllc.com/apt resolute main' | sudo tee /etc/apt/sources.list.d/ptts.list >/dev/null
+sudo apt update && sudo apt install -y ptts-ping
 ```
 
 **Alternative:** [Download the `.deb` directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/ptts-ping_1.4.0-2_amd64.deb) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc)
@@ -71,19 +67,8 @@ sudo apt install ptts-ping
 
 ```sh
 sudo rpm --import https://repo.pttsllc.com/keys/ptts-linux-repo.asc
-sudo tee /etc/yum.repos.d/ptts.repo >/dev/null <<'EOF'
-[ptts]
-name=PTTS LLC
-baseurl=https://repo.pttsllc.com/rpm/fedora/43/x86_64
-enabled=1
-gpgcheck=1
-repo_gpgcheck=1
-gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
-metadata_expire=0
-EOF
-sudo dnf clean all
-sudo dnf makecache --refresh
-sudo dnf install ptts-ping
+sudo dnf config-manager addrepo --id=ptts --set=baseurl=https://repo.pttsllc.com/rpm/fedora/43/x86_64 --set=enabled=1 --set=gpgcheck=1 --set=repo_gpgcheck=1 --set=gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
+sudo dnf install -y ptts-ping
 ```
 
 **Alternative:** [Download the Fedora 43 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/ptts-ping-1.4.0-2.fc43.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc)
@@ -97,19 +82,8 @@ sudo dnf install ptts-ping
 
 ```sh
 sudo rpm --import https://repo.pttsllc.com/keys/ptts-linux-repo.asc
-sudo tee /etc/yum.repos.d/ptts.repo >/dev/null <<'EOF'
-[ptts]
-name=PTTS LLC
-baseurl=https://repo.pttsllc.com/rpm/fedora/44/x86_64
-enabled=1
-gpgcheck=1
-repo_gpgcheck=1
-gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
-metadata_expire=0
-EOF
-sudo dnf clean all
-sudo dnf makecache --refresh
-sudo dnf install ptts-ping
+sudo dnf config-manager addrepo --id=ptts --set=baseurl=https://repo.pttsllc.com/rpm/fedora/44/x86_64 --set=enabled=1 --set=gpgcheck=1 --set=repo_gpgcheck=1 --set=gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
+sudo dnf install -y ptts-ping
 ```
 
 **Alternative:** [Download the Fedora 44 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/ptts-ping-1.4.0-2.fc44.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc)
@@ -125,7 +99,7 @@ sudo dnf install ptts-ping
 sudo dnf install -y dnf-plugins-core epel-release
 sudo dnf config-manager --set-enabled crb
 sudo rpm --import https://repo.pttsllc.com/keys/ptts-linux-repo.asc
-sudo tee /etc/yum.repos.d/ptts.repo >/dev/null <<'EOF'
+sudo tee /etc/yum.repos.d/ptts.repo >/dev/null <<'EOF_REPO'
 [ptts]
 name=PTTS LLC
 baseurl=https://repo.pttsllc.com/rpm/el/9/x86_64
@@ -133,11 +107,8 @@ enabled=1
 gpgcheck=1
 repo_gpgcheck=1
 gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
-metadata_expire=0
-EOF
-sudo dnf clean all
-sudo dnf makecache --refresh
-sudo dnf install ptts-ping
+EOF_REPO
+sudo dnf install -y ptts-ping
 ```
 
 **Alternative:** [Download the EL9 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/ptts-ping-1.4.0-2.el9.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc)
@@ -151,19 +122,8 @@ sudo dnf install ptts-ping
 
 ```sh
 sudo rpm --import https://repo.pttsllc.com/keys/ptts-linux-repo.asc
-sudo tee /etc/yum.repos.d/ptts.repo >/dev/null <<'EOF'
-[ptts]
-name=PTTS LLC
-baseurl=https://repo.pttsllc.com/rpm/el/10/x86_64
-enabled=1
-gpgcheck=1
-repo_gpgcheck=1
-gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
-metadata_expire=0
-EOF
-sudo dnf clean all
-sudo dnf makecache --refresh
-sudo dnf install ptts-ping
+sudo dnf config-manager addrepo --id=ptts --set=baseurl=https://repo.pttsllc.com/rpm/el/10/x86_64 --set=enabled=1 --set=gpgcheck=1 --set=repo_gpgcheck=1 --set=gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
+sudo dnf install -y ptts-ping
 ```
 
 **Alternative:** [Download the EL10 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/ptts-ping-1.4.0-2.el10.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc)
