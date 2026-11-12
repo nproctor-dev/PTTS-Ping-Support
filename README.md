@@ -1,4 +1,4 @@
-# PTTS Ping 1.3.0
+# PTTS Ping 1.4.0
 
 **One ping monitor. Same experience everywhere.**
 
@@ -7,14 +7,14 @@ Paste your hosts and see reachability, latency, packet loss and outages in one
 window—with the same menus, controls and shareable host lists on both platforms.
 **Proprietary Freeware:** free for personal, educational and internal commercial use.
 
-## [Download & Install PTTS-Ping 1.3.0](INSTALL.md)
+## [Download & Install PTTS-Ping 1.4.0](INSTALL.md)
 
-**Current Linux packages: `1.3.0-3`.** Use the signed [PTTS Linux repository](INSTALL.md) for installation and updates, or download the supported `.deb`/`.rpm` packages from the [single 1.3.0 release page](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.3.0). Linux Mint 22.3 Zena uses the Ubuntu 24.04 Noble repository and has passed the revision-3 APT upgrade and monitoring test.
+**Current Linux packages: `1.4.0-2`.** Use the signed [PTTS Linux repository](INSTALL.md) for installation and updates, or download the supported `.deb`/`.rpm` packages from the [single 1.4.0 release page](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.4.0). Linux Mint 22.3 Zena uses the Ubuntu 24.04 Noble repository. PTTS Ping 1.4.0-2 was installed and verified on Mint 22.3, Ubuntu 26.04, and Kubuntu 26.04, including unprivileged ICMP and reboot persistence.
 
 ## Looks at home on your desktop
 
 PTTS Ping automatically inherits your operating system's Light/Dark appearance.
-Windows 10 and Windows 11 follow live Light/Dark changes without restarting.
+Supported Windows x64 desktops follow live Light/Dark changes without restarting.
 Native platform networking sits underneath the same desktop workflow.
 
 No account. No server. No database. No subscription. No monitoring agent.
@@ -27,7 +27,8 @@ open in your browser; nothing is silently downloaded or installed.
 ## Desktop controls
 
 File provides Load List (Ctrl+O), Save List (Ctrl+S), and Exit (Ctrl+Q). The
-existing buttons remain. Options provides Clear Counters and Reset to Defaults.
+existing buttons remain. Edit provides Copy Selection, Copy with Headers,
+Select All, and Clear Selection. Options provides Clear Counters and Reset to Defaults.
 Reset asks first, stops monitoring, clears current/remembered hosts, and restores
 5 sec / 5 min / 20%. It preserves window/column/splitter state and saved list files.
 Help provides manual Check for Updates and About PTTS Ping.
@@ -116,14 +117,13 @@ line-numbered warning. Option-like targets beginning with `-` are rejected.
 
 ## Validated systems and saved settings
 
-Windows 10 Pro 22H2 x64, Windows 11 x64, Kubuntu 26.04, Ubuntu 24.04.5
-Sway/Wayland and Linux Mint 22.3 Zena passed real-desktop install/upgrade
-acceptance for the tested scenarios. A single Windows x64 installer supports Windows 10
-1809+ and Windows 11; real-desktop Windows 10 qualification was performed on
-22H2. Package validation covers Ubuntu 24.04/26.04, Fedora 43/44, Rocky Linux and
-AlmaLinux 9/10, and openSUSE Leap 16.0. Those distro-matrix results are clean
-container validation, not additional desktop claims. Debian and RHEL are not
-validated targets.
+PTTS Ping 1.4.0-2 passed real-desktop install/upgrade, ICMP monitoring, and
+reboot-persistence checks on Kubuntu 26.04 (PMX16), Ubuntu 26.04 GNOME, and
+Linux Mint 22.3 Zena. Earlier Windows x64 testing includes Windows 10 Pro 22H2
+and Windows 11; a single x64 installer targets Windows 10 version 1809 or later
+and Windows 11. Other Linux targets include Ubuntu 24.04, Fedora 43/44, Rocky
+Linux and AlmaLinux 9/10, and openSUSE Leap 16.0; their package-manager checks
+are separate from real-desktop UAT. Debian and RHEL are not validated targets.
 
 Settings are separate from the installed package and survive upgrades/uninstall:
 
