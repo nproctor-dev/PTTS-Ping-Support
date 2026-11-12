@@ -121,7 +121,7 @@ PTTS Ping 1.4.0-2 passed real-desktop install/upgrade, ICMP monitoring, and
 reboot-persistence checks on Kubuntu 26.04 (PMX16), Ubuntu 26.04 GNOME, and
 Linux Mint 22.3 Zena. Earlier Windows x64 testing includes Windows 10 Pro 22H2
 and Windows 11; a single x64 installer targets Windows 10 version 1809 or later
-and Windows 11. Other Linux targets include Ubuntu 24.04, Fedora 43/44, Rocky
+and Windows 11. Other Linux targets include Ubuntu 24.04, Fedora 43/44/45, Rocky
 Linux and AlmaLinux 9/10, and openSUSE Leap 16.0; their package-manager checks
 are separate from real-desktop UAT. Debian and RHEL are not validated targets.
 

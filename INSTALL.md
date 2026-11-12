@@ -91,6 +91,21 @@ sudo dnf install -y ptts-ping
 </details>
 
 <details>
+<summary><strong>Fedora 45</strong></summary>
+
+**Recommended — PTTS Linux repository**
+
+```sh
+sudo rpm --import https://repo.pttsllc.com/keys/ptts-linux-repo.asc
+sudo dnf config-manager addrepo --id=ptts --set=baseurl=https://repo.pttsllc.com/rpm/fedora/45/x86_64 --set=enabled=1 --set=gpgcheck=1 --set=repo_gpgcheck=1 --set=gpgkey=https://repo.pttsllc.com/keys/ptts-linux-repo.asc
+sudo dnf install -y ptts-ping
+```
+
+**Alternative:** [Download the Fedora 45 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/ptts-ping-1.4.0-2.fc45.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc)
+
+</details>
+
+<details>
 <summary><strong>Rocky Linux 9 / AlmaLinux 9</strong></summary>
 
 **Recommended — PTTS Linux repository.** EL9 also requires EPEL and CRB for PTTS Ping runtime dependencies.
@@ -165,7 +180,7 @@ Repository metadata is signed by **PTTS LLC Linux Software Signing**.
 C611 38A4 9D40 5036 D599 2E45 AEB9 E7DE 9F21 AE57
 ```
 
-**Current Linux package revision: 2 (`1.4.0-2`).** PTTS Ping installs `/usr/lib/sysctl.d/50-ptts-ping.conf` to permit native unprivileged IPv4 ICMP on systems where restrictive `net.ipv4.ping_group_range` defaults would otherwise interfere. Administrator overrides take precedence. The signed PTTS APT/RPM repository is the recommended installation and upgrade method. All five RPM packages have individual PTTS package signatures, and repository metadata is signed separately.
+**Current Linux package revision: 2 (`1.4.0-2`).** PTTS Ping installs `/usr/lib/sysctl.d/50-ptts-ping.conf` to permit native unprivileged IPv4 ICMP on systems where restrictive `net.ipv4.ping_group_range` defaults would otherwise interfere. Administrator overrides take precedence. The signed PTTS APT/RPM repository is the recommended installation and upgrade method. All six RPM packages have individual PTTS package signatures, and repository metadata is signed separately.
 
 Direct Linux 1.4.0-2 downloads use the signed aggregate [`SHA256SUMS`](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) manifest and its [detached signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc).
 
