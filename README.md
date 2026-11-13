@@ -9,7 +9,7 @@ window—with the same menus, controls and shareable host lists on both platform
 
 ## [Download & Install PTTS-Ping 1.4.0](INSTALL.md)
 
-**Current Linux packages: `1.4.0-2`.** Use the signed [PTTS Linux repository](INSTALL.md) for installation and updates, or download the supported `.deb`/`.rpm` packages from the [single 1.4.0 release page](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.4.0). Linux Mint 22.3 Zena uses the Ubuntu 24.04 Noble repository. PTTS Ping 1.4.0-2 was installed and verified on Mint 22.3, Ubuntu 26.04, and Kubuntu 26.04, including unprivileged ICMP and reboot persistence.
+**Current Linux packages: `1.4.0-2` on most distributions; Fedora 45: `1.4.0-3.fc45`.** Use the signed [PTTS Linux repository](INSTALL.md) for installation and updates, or download the supported `.deb`/`.rpm` packages from the [single 1.4.0 release page](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/tag/v1.4.0). Linux Mint 22.3 Zena uses the Ubuntu 24.04 Noble repository. PTTS Ping 1.4.0-2 was installed and verified on Mint 22.3, Ubuntu 26.04, and Kubuntu 26.04, including unprivileged ICMP and reboot persistence.
 
 ## Looks at home on your desktop
 

@@ -101,7 +101,7 @@ sudo dnf config-manager addrepo --id=ptts --set=baseurl=https://repo.pttsllc.com
 sudo dnf install -y ptts-ping
 ```
 
-**Alternative:** [Download the Fedora 45 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/ptts-ping-1.4.0-2.fc45.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc)
+**Alternative:** [Download the Fedora 45 RPM directly from GitHub](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/ptts-ping-1.4.0-3.fc45.x86_64.rpm) · [Linux SHA256SUMS](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) · [signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc)
 
 </details>
 
@@ -180,9 +180,9 @@ Repository metadata is signed by **PTTS LLC Linux Software Signing**.
 C611 38A4 9D40 5036 D599 2E45 AEB9 E7DE 9F21 AE57
 ```
 
-**Current Linux package revision: 2 (`1.4.0-2`).** PTTS Ping installs `/usr/lib/sysctl.d/50-ptts-ping.conf` to permit native unprivileged IPv4 ICMP on systems where restrictive `net.ipv4.ping_group_range` defaults would otherwise interfere. Administrator overrides take precedence. The signed PTTS APT/RPM repository is the recommended installation and upgrade method. All six RPM packages have individual PTTS package signatures, and repository metadata is signed separately.
+**Current Linux package revisions: `1.4.0-2` for Ubuntu, Fedora 43/44, EL9/10 and Leap; `1.4.0-3.fc45` for Fedora 45.** PTTS Ping installs `/usr/lib/sysctl.d/50-ptts-ping.conf` to permit native unprivileged IPv4 ICMP on systems where restrictive `net.ipv4.ping_group_range` defaults would otherwise interfere. Administrator overrides take precedence. The signed PTTS APT/RPM repository is the recommended installation and upgrade method. All six RPM packages have individual PTTS package signatures, and repository metadata is signed separately.
 
-Direct Linux 1.4.0-2 downloads use the signed aggregate [`SHA256SUMS`](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) manifest and its [detached signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc).
+Direct Linux 1.4.0 downloads use the signed aggregate [`SHA256SUMS`](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS) manifest and its [detached signature](https://github.com/nproctor-dev/PTTS-Ping-Support/releases/download/v1.4.0/SHA256SUMS.asc).
 
 ## Release resources
 
